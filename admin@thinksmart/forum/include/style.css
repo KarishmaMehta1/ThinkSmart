@@ -1,0 +1,237 @@
+            html, body
+            {
+                margin: 0;
+		padding: 0;
+            }
+            #container
+            {
+		width: 1200px;
+		margin: 0 auto;
+		padding: 8px;
+		font-family: 'Muli', sans-serif;
+            }
+            #logo
+            {
+                font-weight:bolder;
+		font-size: 2.5em;
+            }
+            #navbar ul
+            {
+		list-style-type:none;
+		float: right;
+            }
+            #navbar ul li
+            {
+                display: inline;
+		padding-bottom: 6px;
+		padding-top: 6px;
+		padding-left: 8px;
+		padding-right: 8px;
+		background-color:#CCC;
+		font-size: 18px;
+            }
+            #navbar ul li a
+            {
+                text-decoration: none;
+		color: #FFF;
+            }
+            #body
+            {
+                padding-top: 20px;
+		padding-bottom: 10px;
+		clear: both;
+            }
+            #body #content
+            {
+                float: left;
+		        width: 100%;
+            }
+            #body #content .question .info
+            {
+		float: left;
+		width: 11%;
+		text-align: center;
+                background-color: green;
+                color: white;
+                padding: 2px;
+            }
+            #body #content .question .details
+            {
+                float: right;
+		        width: 85%;
+                padding: 0px;
+            }
+            #body #content .question .details .headline
+            {
+		font-size: 1.3em;
+                font-weight: bolder;
+                color: #1892fc;
+                word-wrap: break-word;
+            }
+            #body #content .question .details .authcat
+            {
+                margin-top: 20px;
+            }
+            #body #content .question .details .authcat .category
+            {
+                float: left;
+                width: 68%;
+            }
+            #body #content .question .details .authcat .category a
+            {
+                padding: 4px;
+                background-color: #ed407b;
+                color: white;
+            }
+            #body #content .question .details .authcat .author
+            {
+                float:right;
+                width: 35%;
+            }
+            #body #content .question .details .authcat .author a
+            {
+                color: blue;
+            }
+            #body #content .question .details a
+            {
+                text-decoration: none;
+            }
+            #body #sidebar
+            {
+                float: right;
+		width: 18%;
+            }
+            #body #sidebar li a
+            {
+                text-decoration: none;
+                color: black;
+            }
+            #body .signin
+            {
+                font-size: 1.7em;
+                width: 80%;
+                margin: 0 auto;
+                padding-top: 14%;
+                padding-bottom: 17%;
+                text-align: center;
+            }
+            #body .signin .data
+            {
+                height: 1.65em;
+                border: solid 1px blue;
+            }
+            #body .signin .submit
+            {
+                background-color: #CCC;
+                color: white;
+                font-weight: bold;
+                font-size: 0.6em;
+                padding: 3px;
+                width: 85px;
+                border: none;
+                margin-bottom: 50px;
+            }
+            #body .signin a
+            {
+                text-decoration: none;
+                color: red;
+            }
+            #vquestion #vques
+            {
+                font-weight: bolder;
+                font-size: 1.75em;
+                word-wrap: break-word; 
+            }
+            #vquestion #vinfo
+            {
+                float: right;
+            }
+            #vquestion #vinfo .auth
+            {
+                text-decoration: none;
+                color: blue;
+            }
+            #vquestion #vinfo .cat
+            {
+                text-decoration: none;
+                color: green;
+            }
+            #vquestion #vdesc
+            {
+                word-wrap: break-word;
+            }
+            #vquestion #sugs
+            {
+                float: right;
+            }
+            #vquestion #sugs a
+            {
+                text-decoration: none;
+                color: blue;
+            }
+            #vquestion #comments #cmntbox
+            {
+                width: 90%;
+                margin: 0 auto;
+                border: 2px solid #CCC;
+                padding: 15px;
+            }
+            #vquestion #comments #cmntbox a
+            {
+                text-decoration: none;
+                color: blue;
+                font-size: 1.2em;
+            }
+            #body #content #quesform .aQF .data
+            {
+                height: 1.65em;
+                border: solid 1px blue;
+                width: 100%;
+            }
+            #body #content #quesform .aQF .submit
+            {
+                background-color: #adadad;
+                color: white;
+                font-weight: bold;
+                font-size: 1.5em;
+                padding: 3px;
+                width: 250px;
+                border: none;
+                margin-bottom: 50px;
+            }
+            #body #data #catarea
+            {
+                width: 95%;
+                margin: 0 auto;
+            }
+            #catarea table tr td
+            {
+                background-color: #CCC;
+            }
+            #catarea table tr td a
+            {
+                text-decoration: none;
+                color: blue;
+            }
+            #catarea #catname
+            {
+                font-weight: bolder;
+            }
+            .odd
+            {
+                background-color: #d3d3d3;
+            }
+            #body .summary
+            {
+                padding: 0px;
+            }
+            #footer
+            {
+                padding-top: 5px;
+		padding-bottom: 5px;
+		clear: both;
+		text-align:center;
+		background-color: #000;
+		color: #FFF;
+		font-size: 1.2em;
+            }
